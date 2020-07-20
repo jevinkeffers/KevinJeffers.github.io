@@ -1,0 +1,59 @@
+
+html {
+    font-family: 'Raleway', sans-serif;
+    background-color: gainsboro;
+}
+
+body {
+    background-color: whitesmoke;
+    max-width: 700px;
+    margin: 140px auto 20px;
+    padding: 260px 10px 0px;
+    box-shadow: 15px 15px #2A2A2D;
+}
+
+p {
+    color: #2A2A2D;
+    font-size: 24px;
+    line-height: 2em;
+    word-spacing: 0.1em;
+    text-align: center;
+    text-indent: 0px;
+    margin: 2.5em 6em 1em;
+}
+
+strong {
+    letter-spacing: 0.04em;
+    background-color: whitesmoke;
+}
+
+img.linkedin, img.github, img.ig {
+    width: 60px;
+    margin: 20px;
+}
+
+.links {
+    display: flex;
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+img.headshot {
+    width: 400px;
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    margin: auto -200px;
+
+}
+
+img.sig {
+    width: 500px;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    margin: auto -250px;
+}
